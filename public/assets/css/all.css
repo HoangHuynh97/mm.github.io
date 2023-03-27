@@ -1,0 +1,58 @@
+a {
+    text-decoration: none !important;
+}
+body {
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.hidden {
+    display: none;
+}
+.block {
+    display: block;
+}
+.inblock {
+    display: inline-block;
+}
+.w100 {
+    width: 100%;
+}
+.w100px {
+    width: 100px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.landing-container {
+    text-align: center;
+}
+.video-inpage {
+    width: 50%;
+}
+.note {
+    margin: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
